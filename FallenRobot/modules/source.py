@@ -9,7 +9,7 @@ from telethon import __version__ as s
 from FallenRobot import OWNER_USERNAME, dispatcher
 from FallenRobot import pbot as client
 
-ANON = "https://telegra.ph/file/7bd111132fce009e4605e.jpg"
+ANON = "https://telegra.ph/file/c16b730bfdf7c7f0625fa.jpg"
 
 
 @client.on_message(filters.command(["repo", "source"]))
