@@ -18,7 +18,7 @@ async def repo(client, message):
         photo=ANON,
         caption=f"""**ʜᴇʏ​ {message.from_user.mention()},\n\nɪ ᴀᴍ [{dispatcher.bot.first_name}](t.me/{dispatcher.bot.username})**
 
-**» ᴍʏ ᴅᴇᴠᴇʟᴏᴘᴇʀ​ :** [ᴍɪᴛʜʟᴏʀᴀᴀ](https://t.me/mithloraa)
+**» ᴍʏ ᴅᴇᴠᴇʟᴏᴘᴇʀ​ :** [ᴍɪᴛʜʟᴏʀᴀᴀ](https://t.me/{OWNER_USERNAME})** \n\n"
 **» ᴩʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ :** `{y()}`
 **» ʟɪʙʀᴀʀʏ ᴠᴇʀsɪᴏɴ :** `{o}` 
 **» ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ :** `{s}` 
