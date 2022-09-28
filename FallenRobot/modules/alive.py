@@ -17,7 +17,7 @@ PHOTO = [
 
 @register(pattern=("/alive"))
 async def awake(event):
-    TEXT = f"**ʜᴇʏ​ [{message.from_user.mention()}],\n\nɪ ᴀᴍ [{dispatcher.bot.first_name}]{dispatcher.bot.username}**\n━━━━━━━━━━━━━━━━━━━\n\n"
+    TEXT = f"**ʜᴇʏ​ {message.from_user.mention()}],\n\nɪ ᴀᴍ [{dispatcher.bot.first_name}]{dispatcher.bot.username}**\n━━━━━━━━━━━━━━━━━━━\n\n"
     TEXT += f"» **ᴍʏ ᴅᴇᴠᴇʟᴏᴘᴇʀ​ : [𝝙𝗡𝗢𝗡𝗬𝗠𝗢𝗨𝗦](https://t.me/{OWNER_USERNAME})** \n\n"
     TEXT += f"» **ʟɪʙʀᴀʀʏ ᴠᴇʀsɪᴏɴ :** `{telever}` \n\n"
     TEXT += f"» **ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ :** `{tlhver}` \n\n"
